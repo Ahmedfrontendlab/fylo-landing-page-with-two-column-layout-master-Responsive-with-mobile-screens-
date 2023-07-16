@@ -479,20 +479,20 @@ body{
     }
 
     .imgback {
-        width: 375px;
+        width: 925px;
         height: 65px;
         position: absolute;
-        top: 547px;
-        left: 247px;
+        top: 553px;
+        left: -2px;
     }
 
     .curvecomplete {
         background-color: #f8f8fe;
-        width: 375px;
+        width: 907px;
         height: 653px;
         position: relative;
         top: 610px;
-        left: 247px;
+        left: 7px;
     }
 
     .img2 {
@@ -559,11 +559,11 @@ body{
     .section3 {
         background-color: var(--Desaturated-Blue);
         padding: 50px;
-        width: 375px;
+        width: 815px;
         height: 240px;
         position: relative;
         top: 590px;
-        left: 190px;
+        left: -1px;
     }
 
     .firsttextforsec3 {
@@ -574,7 +574,7 @@ body{
         font-size: 31px;
         position: absolute;
         top: 56px;
-        left: 63px;
+        left: 230px;
     }
 
     .secondtextforsec3 {
@@ -585,7 +585,7 @@ body{
         font-size: 13px;
         position: absolute;
         top: 116px;
-        left: 73px;
+        left: 231px;
     }
 
     .inputtag3 {
@@ -594,7 +594,7 @@ body{
         width: 289px;
         position: absolute;
         top: 230px;
-        left: 85px;
+        left: 241px;
     }
 
     .clickbuttonforsec3 {
@@ -605,17 +605,17 @@ body{
         width: 153px;
         position: absolute;
         top: 282px;
-        left: 157px;
+        left: 315px;
     }
 
     .section4 {
-        width: 375px;
+        width: 864px;
         padding: 25px;
         height: 497px;
         background-color: var(--Very-Dark-Blue);
         position: relative;
         top: 590px;
-        left: 213px;
+        left: 0px;
     }
 
     .contactinfo {
@@ -655,6 +655,9 @@ body{
         color: white;
     }
 
+    
+
+}
     
 
 }
