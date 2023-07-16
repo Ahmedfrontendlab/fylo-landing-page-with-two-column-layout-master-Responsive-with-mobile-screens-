@@ -1,0 +1,660 @@
+:root{
+    
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    width: 1500px;
+}
+
+
+.nav{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+
+.logo{
+    margin-top: 10px;
+    position: relative;
+}
+
+.logoimg{
+    position: absolute;
+    top: 0px;
+    left: -310px;
+}
+
+
+
+.links{
+    margin-top: 10px;
+    position: relative;
+}
+
+.link1{
+  position: absolute;
+  left: 120px;
+}
+
+.link2{
+  position: absolute;
+  left: 39px;
+}
+
+.link3{
+    position: absolute;
+    left: -40px;
+
+}
+.textsec1{
+    position: relative;
+}
+
+.firsttextforsec1{
+    font-family: 'Montserrat', sans-serif;
+    FONT-SIZE: 32PX;
+    font-weight: bold;
+    position: absolute;
+    top: 206px;
+    left: 213px;
+}
+
+.secondtextforsec1{
+    font-family: 'Montserrat', sans-serif;
+    FONT-SIZE: 12PX;
+    position: absolute;
+    top: 296px;
+    left: 212px;
+}
+
+
+
+
+
+.imgforsec1{
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    width: 400px;
+    top: 130px;
+    left: 789px;
+}
+
+
+
+
+
+.inputforsec1{
+    position: relative;
+}
+
+.inputtag1{
+    position: absolute;
+    top: 363px;
+    left: 210px;
+    width: 225px;
+    padding: 8px;
+}
+
+
+
+.buttonforsec1{
+    position: relative;
+}
+
+.clickbuttonforsec1{
+    color: white;
+    background-color: var(--Bright-Blue);
+    position: absolute;
+    top: 363px;
+    left: 466px;
+    width: 200px;
+    padding: 8px;
+}
+
+
+
+.backgroundimgforsec2{
+    position: relative;
+
+}
+
+.imgback{
+    width: 1500px;
+    height: 120px;
+    position: absolute;
+    top: 490px;
+    left: 0px;
+}
+
+
+.imgforsec2 .textsec2 .buttonforsec2 {
+    position: relative;
+}
+
+.img2{
+    z-index: 100;
+    width: 400px;
+    position: absolute;
+    top: 633px;
+    left: 789px;
+}
+
+
+.firsttextforsec2{
+    font-family: 'Montserrat', sans-serif;
+    FONT-SIZE: 22PX;
+    position: absolute;
+    top: 652px;
+    left: 165px;
+}
+
+.secondtextforsec2{
+    font-family: 'Montserrat', sans-serif;
+    FONT-SIZE: 13PX;
+    position: absolute;
+    top: 701px;
+    left: 168px;
+}
+
+
+.clickbuttonforsec2{
+    color: var(--Moderate-Cyan);
+    position: absolute;
+    top: 789px;
+    left: 166px;
+}
+
+.buttonforseclink:hover{
+    color: var(--Bright-Blue);
+}
+
+.buttonforseclink{
+    color: var(--Moderate-Cyan);
+
+}
+
+.comment{
+    font-family: 'Montserrat', sans-serif;
+    height: 109px;
+    width: 300px;
+    padding: 35px;
+    background-color: #fdfdfd;
+    position: absolute;
+    top: 838px;
+    left: 158px;
+}
+
+
+.commentimg{
+    width: 45px;
+    border-radius: 25px;
+    position: absolute;
+    top: 112px;
+    left: 28px;
+}
+
+.commentwriter{
+    position: absolute;
+    top: 121px;
+    left: 81px;
+}
+
+
+
+
+.section3{
+    background-color: var(--Desaturated-Blue);
+    padding: 50px;
+    width: 1500px;
+    height: 113px;
+    position: relative;
+    top: 590px;
+    left: 0px;
+}
+
+
+
+.inputtag3{
+    padding: 1px;
+    height: 27px;
+    width: 289px;
+    position: absolute;
+    top: 82px;
+    left: 619px;
+}
+
+
+.clickbuttonforsec3{
+    border-color: none;
+    color: white;
+    background-color: var(--Bright-Blue);
+    padding: 6px;
+    width: 153px;
+    position: absolute;
+    top: 130px;
+    left: 617px;
+}
+
+
+.curvecomplete{
+    background-color: #f8f8fe;
+    width: 1500px;
+    height: 423px;
+    position: relative;
+    top: 610px;
+    left: 0px;
+
+}
+
+
+
+.section4{
+    width: 1500px;
+    padding: 25px;
+    height: 190px;
+    background-color: var(--Very-Dark-Blue);
+    position: relative;
+    top: 590px;
+    left: 0px;
+}
+
+
+.firsttextforsec3{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #f8f8fe;
+    font-size: 40px;
+    position: absolute;
+    top: 56px;
+    left: 63px;
+}
+
+
+.secondtextforsec3{
+    font-weight: 600;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 116px;
+    left: 73px;
+}
+
+
+
+.firsttextforsec4{
+    font-family: 'Montserrat', sans-serif;     
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 59px;
+    left: 445px
+}
+
+
+.therestoffirsttextforsec4{
+    font-family: 'Montserrat', sans-serif;     
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 62px;
+    left: 608px;
+}
+
+.contactinfo{
+    font-family: 'Montserrat', sans-serif;     
+    color: #f8f8fe;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.phoneicon{
+    position: absolute;
+    top: 65px;
+    left: 110px;
+}
+
+.emailicon{
+    position: absolute;
+    top: 107px;
+    left: 110px;
+}
+
+.Phonenumber{
+    font-family: 'Montserrat', sans-serif;     
+    width: 171px;
+    position: absolute;
+    top: 67px;
+    left: 137px;
+}
+
+
+.emailinfo{
+    font-family: 'Montserrat', sans-serif;     
+    position: absolute;
+    top: 105px;
+    left: 137px;
+}
+
+.icon1{
+    display: block;
+    z-index: 500;
+    width: 21px;
+    position: absolute;
+    top: 847px;
+    left: 192px;
+}
+
+
+.icon2{
+    width: 33px;
+    position: absolute;
+    top: 785px;
+    left: 301px;
+}
+
+ 
+
+.aboutus       {
+    color: white;
+}
+
+.jobs{
+    color: white;
+
+}
+
+.press{
+    color: white;
+
+}
+
+.blog{
+    color: white;
+
+}
+
+.Terms{
+    color: white;
+
+}
+
+.Privacy{
+    color: white;
+
+}
+
+.Contactus{
+    color: white;
+
+}
+
+
+
+@media screen and (max-width:375px) {
+     .nav{
+        width: 375px;
+     }
+      
+    .section1{
+        width: 375px;
+    }
+
+    .logoimg {
+        position: absolute;
+        top: 43px;
+        left: -79px;
+    }
+
+    .links {
+        margin-top: 0px;
+        position: absolute;
+        top: 79px;
+        left: 577px;
+    }
+
+    .img1 {
+        position: absolute;
+        width: 256px;
+        top: 136px;
+        left: 316px;
+    }
+
+    .firsttextforsec1 {
+        width: 375px;
+        font-family: 'Montserrat', sans-serif;
+        FONT-SIZE: 14PX;
+        font-weight: bold;
+        position: absolute;
+        top: 335px;
+        left: 324px;
+    }
+
+    .secondtextforsec1 {
+        width: 375px;
+        font-family: 'Montserrat', sans-serif;
+        FONT-SIZE: 10PX;
+        position: absolute;
+        top: 384px;
+        left: 273px;
+    }
+
+    .inputtag1 {
+        position: absolute;
+        top: 440px;
+        left: 309px;
+        width: 225px;
+        padding: 8px;
+    }
+
+    .clickbuttonforsec1 {
+        color: white;
+        background-color: var(--Bright-Blue);
+        position: absolute;
+        top: 486px;
+        left: 335px;
+        width: 200px;
+        padding: 8px;
+    }
+
+    .imgback {
+        width: 375px;
+        height: 65px;
+        position: absolute;
+        top: 547px;
+        left: 247px;
+    }
+
+    .curvecomplete {
+        background-color: #f8f8fe;
+        width: 375px;
+        height: 653px;
+        position: relative;
+        top: 610px;
+        left: 247px;
+    }
+
+    .img2 {
+        z-index: 100;
+        width: 252px;
+        position: absolute;
+        top: 598px;
+        left: 315px;
+    }
+
+    .firsttextforsec2 {
+        width: 375px;
+        font-family: 'Montserrat', sans-serif;
+        FONT-SIZE: 11PX;
+        position: absolute;
+        top: 825px;
+        left: 286px;
+    }
+
+    .secondtextforsec2 {
+        width: 375px;
+        font-family: 'Montserrat', sans-serif;
+        FONT-SIZE: 12PX;
+        position: absolute;
+        top: 883px;
+        left: 266px;
+    }
+
+    .clickbuttonforsec2 {
+        width: 375px;
+        color: var(--Moderate-Cyan);
+        position: absolute;
+        top: 1013px;
+        left: 351px;
+    }
+
+    .icon2 {
+        width: 33px;
+        position: absolute;
+        top: 1006px;
+        left: 493px;
+    }
+
+    .comment {
+        font-family: 'Montserrat', sans-serif;
+        height: 109px;
+        width: 257px;
+        padding: 35px;
+        background-color: #fdfdfd;
+        position: absolute;
+        top: 1050px;
+        left: 266px;
+    }
+
+    .icon1 {
+        display: block;
+        z-index: 500;
+        width: 21px;
+        position: absolute;
+        top: 1060px;
+        left: 290px;
+    }
+
+    .section3 {
+        background-color: var(--Desaturated-Blue);
+        padding: 50px;
+        width: 375px;
+        height: 240px;
+        position: relative;
+        top: 590px;
+        left: 190px;
+    }
+
+    .firsttextforsec3 {
+        width: 375px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        color: #f8f8fe;
+        font-size: 31px;
+        position: absolute;
+        top: 56px;
+        left: 63px;
+    }
+
+    .secondtextforsec3 {
+        width: 375px;
+        font-weight: 600;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        position: absolute;
+        top: 116px;
+        left: 73px;
+    }
+
+    .inputtag3 {
+        padding: 1px;
+        height: 27px;
+        width: 289px;
+        position: absolute;
+        top: 230px;
+        left: 85px;
+    }
+
+    .clickbuttonforsec3 {
+        border-color: none;
+        color: white;
+        background-color: var(--Bright-Blue);
+        padding: 6px;
+        width: 153px;
+        position: absolute;
+        top: 282px;
+        left: 157px;
+    }
+
+    .section4 {
+        width: 375px;
+        padding: 25px;
+        height: 497px;
+        background-color: var(--Very-Dark-Blue);
+        position: relative;
+        top: 590px;
+        left: 213px;
+    }
+
+    .contactinfo {
+        font-family: 'Montserrat', sans-serif;
+        color: #f8f8fe;
+        position: absolute;
+        top: 0px;
+        left: -61px;
+    }
+
+    .aboutus {
+        position: absolute;
+        top: 117px;
+        left: -394px;
+        color: white;
+    }
+
+
+    .jobs {
+        position: absolute;
+        top: 176px;
+        left: -394px;
+        color: white;
+    }
+
+    .press {
+        position: absolute;
+        top: 239px;
+        left: -394px;
+        color: white;
+    }
+
+    .blog {
+        position: absolute;
+        top: 321px;
+        left: -394px;
+        color: white;
+    }
+
+    
+
+}
